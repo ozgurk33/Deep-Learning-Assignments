@@ -37,6 +37,6 @@ The models were evaluated on the test set (275 samples), achieving high accuracy
 ![Loss Curves](images/overfittin_underfitting.png)
 
 ## 4. Discussion
-The project successfully demonstrated that the custom-coded backpropagation algorithm yields identical results to PyTorch zaman initialized with the same weights. This proves the correctness of the partial derivative calculations and matrix operations.
+The project successfully demonstrated that the custom-coded backpropagation algorithm yields identical results to PyTorch when initialized with the same weights. This proves the correctness of the partial derivative calculations and matrix operations.
 
 The inclusion of `var_skew_interact` significantly improved classification performance. The training curves indicate a healthy learning process where validation loss consistently follows the training loss, confirming that the L2 regularization effectively prevented overfitting. Future work could involve testing momentum-based optimizers like Adam or alternative activation functions like ReLU.
