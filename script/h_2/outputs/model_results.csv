@@ -1,0 +1,5 @@
+Model,Test Accuracy (%)
+LeNet5,63.59
+LeNet5 + BatchNorm + Dropout,66.12
+ResNet18,83.84
+ResNet18 Features + RandomForest,84.97
